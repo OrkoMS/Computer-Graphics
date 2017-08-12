@@ -259,8 +259,8 @@ void signal()
     glPushMatrix();
     glScaled(40.0,40.0,0.0);
     //stand
-    //glColor3f(0.612, 0.612, 0.412);
-    glColor3f(0.0, 0.0, 0.0);
+    glColor3f(0.612, 0.612, 0.412);
+    //glColor3f(0.0, 0.0, 0.0);
     glBegin(GL_POLYGON);
         glVertex2f(15,7);
         glVertex2f(15,8);
